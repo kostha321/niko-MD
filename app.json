@@ -1,0 +1,37 @@
+{
+  "name": "NIKO-MD",
+  "description": "NIKO-MD has been designed to make things easier and fun while using WhatsApp. 👩‍💻😘",
+  "logo": "https://files.catbox.moe/cs2b1p.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },
+ "NEWS_SEND_JID": {
+      "description": "Put the jid channel or group",
+      "required": false
+    },
+"AUTO_NEWS_SENDER": {
+      "description": "true or false",
+      "required": false
+    } ,
+"TIKTOK_SEND_JID": {
+      "description": "Put the jid channel or group",
+      "required": false
+    } ,
+    "AUTO_TIKTOK_SENDER": {
+      "description": "true or false",
+      "required": false
+    } 
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
