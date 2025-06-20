@@ -2,7 +2,7 @@
   "name": "NIKO-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "index.js",
+  "main": "niko.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name Niko",
     "stop": "pm2 stop Niko-md",
